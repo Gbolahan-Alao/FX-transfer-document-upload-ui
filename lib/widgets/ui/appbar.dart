@@ -10,9 +10,9 @@ class MainAppBar extends StatelessWidget {
       width: double.infinity,
       decoration: const BoxDecoration(
         gradient: LinearGradient(colors: [
-          Color.fromARGB(255, 48, 3, 56),
-          Color.fromARGB(255, 35, 4, 41),
-          Color.fromARGB(255, 48, 3, 56)
+          Color.fromARGB(255, 86, 3, 100),
+          Color.fromARGB(255, 103, 22, 119),
+          Color.fromARGB(255, 83, 12, 95)
         ]),
       ),
       margin: const EdgeInsets.only(top: 40, bottom: 20),
@@ -47,3 +47,4 @@ class MainAppBar extends StatelessWidget {
     );
   }
 }
+

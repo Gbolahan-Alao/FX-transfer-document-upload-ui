@@ -9,18 +9,20 @@ class FxTransfer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Padding(
-      padding: const EdgeInsets.only(
-        bottom: 40,
+      body: Padding(
+        padding: const EdgeInsets.only(  
+          bottom: 40,
+        ),
+        child: Column(
+          children: [
+            const MainAppBar(title: 'FX transfer-Document upload'),
+            const UploadDocument(),
+            const DocumentList(),
+          const  Spacer(),
+            Button(text: 'Proceed', onPress: () {})
+          ],
+        ),
       ),
-      child: Column(
-        children: [
-          const MainAppBar(title: 'FX transfer-Document upload'),
-          const UploadDocument(),
-          const DocumentList(),
-          Button(text: 'Proceed', onPress: () {})
-        ],
-      ),
-    ));
+    );
   }
 }
